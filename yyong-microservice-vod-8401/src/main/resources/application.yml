@@ -1,0 +1,40 @@
+server:
+  port: 8401
+spring:
+  application:
+    name: yyong-vod
+  profiles:
+    active: dev
+---
+# dev环境
+
+spring:
+  profiles: dev
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/
+  instance:
+    instance-id: yyong-vod-8401
+    prefer-ip-address: true
+
+info:
+  app.name: yyong-vod-8401
+  company.name: xxxxxxx
+  build.artfactId: $project.artifactId$
+  build.version: $project.version$
+
+---
+# test环境
+
+spring:
+  profiles: test
+
+---
+# prod环境
+
+spring:
+  profiles: prod
+

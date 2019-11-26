@@ -1,0 +1,40 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: yyong-hystrix-dashboard
+  profiles:
+    active: dev
+---
+# dev环境
+
+spring:
+  profiles: dev
+server:
+  port: 9001
+
+
+---
+# test环境
+
+spring:
+  profiles: test
+
+---
+# prod环境
+
+spring:
+  profiles: prod
+server:
+  port: 8762
+
+eureka:
+  instance:
+    appname: yyong-eureka-server
+  client:
+    service-url.defaultZone: http://localhost:${server.port}/eureka
+    #是否将自己注册到eureka服务器中，本身就是服务器，无需注册
+    register-with-eureka: false
+  #开启保护机
+  server:
+    enable-self-preservation: true

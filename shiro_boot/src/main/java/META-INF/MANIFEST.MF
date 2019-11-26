@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Class-Path: tools.jar springfox-spring-web-2.2.2.jar spring-plugin-metad
+ ata-1.2.0.RELEASE.jar HikariCP-java6-2.3.13.jar logback-core-1.1.11.jar
+  spring-boot-starter-jdbc-1.5.3.RELEASE.jar javassist-3.21.0-GA.jar spr
+ ing-boot-starter-1.5.3.RELEASE.jar unbescape-1.1.0.RELEASE.jar spring-h
+ ateoas-0.23.0.RELEASE.jar shiro-spring-1.3.2.jar groovy-2.4.10.jar comm
+ ons-collections-3.2.2.jar springfox-swagger-ui-2.2.2.jar spring-boot-st
+ arter-aop-1.5.3.RELEASE.jar swagger-annotations-1.5.3.jar shiro-core-1.
+ 3.2.jar commons-lang-2.6.jar mapstruct-1.0.0.CR1.jar jackson-core-2.8.8
+ .jar druid-1.0.28.jar spring-core-4.3.8.RELEASE.jar spring-boot-1.5.3.R
+ ELEASE.jar slf4j-api-1.7.25.jar spring-context-4.3.8.RELEASE.jar androi
+ d-json-0.0.20131108.vaadin1.jar mybatis-spring-boot-autoconfigure-1.2.0
+ .jar ognl-3.0.8.jar jconsole.jar spring-beans-4.3.8.RELEASE.jar snakeya
+ ml-1.17.jar guava-18.0.jar shiro-web-1.3.2.jar spring-boot-starter-web-
+ 1.5.3.RELEASE.jar thymeleaf-2.1.5.RELEASE.jar thymeleaf-layout-dialect-
+ 1.4.0.jar commons-beanutils-1.9.3.jar classmate-1.3.3.jar spring-web-4.
+ 3.8.RELEASE.jar hibernate-validator-5.3.5.Final.jar mybatis-spring-boot
+ -starter-1.2.0.jar spring-boot-starter-logging-1.5.3.RELEASE.jar mybati
+ s-spring-1.3.1.jar jul-to-slf4j-1.7.25.jar aspectjweaver-1.8.10.jar kap
+ tcha-0.0.9.jar spring-boot-autoconfigure-1.5.3.RELEASE.jar mybatis-3.4.
+ 2.jar springfox-core-2.2.2.jar jboss-logging-3.3.1.Final.jar spring-boo
+ t-configuration-processor-1.5.3.RELEASE.jar filters-2.0.235.jar tomcat-
+ embed-core-8.5.14.jar spring-webmvc-4.3.8.RELEASE.jar thymeleaf-spring4
+ -2.1.5.RELEASE.jar spring-plugin-core-1.2.0.RELEASE.jar springfox-swagg
+ er2-2.2.2.jar spring-aop-4.3.8.RELEASE.jar fastjson-1.2.30.jar mchange-
+ commons-java-0.2.11.jar spring-boot-starter-thymeleaf-1.5.3.RELEASE.jar
+  springfox-swagger-common-2.2.2.jar logback-classic-1.1.11.jar quartz-2
+ .3.0.jar tomcat-jdbc-8.5.14.jar mysql-connector-java-5.1.38.jar commons
+ -io-2.5.jar springfox-spi-2.2.2.jar tomcat-embed-websocket-8.5.14.jar s
+ wagger-models-1.5.3.jar jackson-databind-2.8.8.jar spring-tx-4.3.8.RELE
+ ASE.jar spring-boot-devtools-1.5.3.RELEASE.jar spring-jdbc-4.3.8.RELEAS
+ E.jar jackson-annotations-2.8.0.jar aspectjrt-1.8.10.jar spring-boot-st
+ arter-tomcat-1.5.3.RELEASE.jar commons-fileupload-1.3.1.jar spring-cont
+ ext-support-4.3.8.RELEASE.jar tomcat-embed-el-8.5.14.jar spring-express
+ ion-4.3.8.RELEASE.jar commons-configuration-1.10.jar tomcat-juli-8.5.14
+ .jar springfox-schema-2.2.2.jar validation-api-1.1.0.Final.jar commons-
+ logging-1.1.1.jar log4j-over-slf4j-1.7.25.jar velocity-1.7.jar c3p0-0.9
+ .5.2.jar commons-codec-1.10.jar jcl-over-slf4j-1.7.25.jar
+

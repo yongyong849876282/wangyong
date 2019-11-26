@@ -1,0 +1,56 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: yyong-server-eureka-8761
+  profiles:
+    active: dev
+---
+# dev环境
+
+spring:
+  profiles: dev
+server:
+  port: 8761
+
+eureka:
+  instance:
+    appname: yyong-server-eureka-8761
+  client:
+    #是否将自己注册到eureka服务器中，本身就是服务器，无需注册
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8762/eureka/
+
+  #关闭保护机制，以确保注册中心将不可用的实例正确剔除,
+  server:
+    enable-self-preservation: false
+  #（代表是5秒，单位是毫秒,清理失效服务的间隔 ）
+    eviction-interval-timer-in-ms: 5000
+
+
+---
+# test环境
+
+spring:
+  profiles: test
+
+---
+# prod环境
+
+spring:
+  profiles: prod
+server:
+  port: 8761
+
+eureka:
+  instance:
+    appname: yyong-eureka-server
+  client:
+    service-url.defaultZone: http://localhost:${server.port}/eureka,http://localhost:8762/eureka/
+    #是否将自己注册到eureka服务器中，本身就是服务器，无需注册
+    register-with-eureka: false
+  #开启保护机
+  server:
+    enable-self-preservation: true
