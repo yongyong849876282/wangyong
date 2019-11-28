@@ -22,7 +22,8 @@ hystrixDashboard服务监控
 - 健康度：绿<黄<橙<红
 ------------
 gateway网关
-- 发
+- yyong-microservice-gateway-80
+- 基于 Filter 的限流>令牌桶算法
 -------------------
 vod集群(视频播放)
 - yyong-microservice-vod-8401:8401
